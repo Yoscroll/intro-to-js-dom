@@ -9,5 +9,6 @@ var tagElement = document.getElementsByTagName('script');
 console.log(tagElement);
 
 //console.log(document.getElementsByClass('use-class-method'));
-var classElement = document.getElementsByTagName('use-class-method');
-console.log(classElement);
+var classElement = document.getElementsByClassName('use-class-method');
+console.log(classElement[0]);
+console.log(classElement[1]);
