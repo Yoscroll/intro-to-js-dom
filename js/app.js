@@ -4,6 +4,10 @@ console.log("sanity check");
 var idElement = document.getElementById("use-id-method");
 console.log(idElement);
 
-console.log(document.getElementsByTagName('script'));
+//console.log(document.getElementsByTagName('script'));
 var tagElement = document.getElementsByTagName('script');
 console.log(tagElement);
+
+//console.log(document.getElementsByClass('use-class-method'));
+var classElement = document.getElementsByTagName('use-class-method');
+console.log(classElement);
